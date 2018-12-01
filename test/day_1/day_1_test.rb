@@ -6,6 +6,10 @@ class Day1Test < Minitest::Test
     assert_equal 595, Day1.count(INPUT_1)
   end
 
+  def test_two
+    assert_equal 80598, Day1.count2(INPUT_1)
+  end
+
   INPUT_1 = <<-END
 -1
 -19
